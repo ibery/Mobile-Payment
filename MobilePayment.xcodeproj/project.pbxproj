@@ -11,6 +11,7 @@
 		0760E94028A4E95900780358 /* CashierPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E93F28A4E95900780358 /* CashierPageViewController.swift */; };
 		0760E94228A4E96F00780358 /* CashierPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */; };
 		0760E94428A5051C00780358 /* CustomerPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */; };
+		0760E94628A531AD00780358 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E94528A531AD00780358 /* Constants.swift */; };
 		07FA253228A40448009A928D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253128A40448009A928D /* AppDelegate.swift */; };
 		07FA253428A40448009A928D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253328A40448009A928D /* SceneDelegate.swift */; };
 		07FA253B28A4044B009A928D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA253A28A4044B009A928D /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		0760E93F28A4E95900780358 /* CashierPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierPageViewController.swift; sourceTree = "<group>"; };
 		0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashierPageScreen.storyboard; sourceTree = "<group>"; };
 		0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerPageScreen.storyboard; sourceTree = "<group>"; };
+		0760E94528A531AD00780358 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		07FA252E28A40448009A928D /* MobilePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA253128A40448009A928D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FA253328A40448009A928D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				07FA255928A413D0009A928D /* Storyboards.swift */,
+				0760E94528A531AD00780358 /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				0760E94028A4E95900780358 /* CashierPageViewController.swift in Sources */,
 				0760E93B28A4E70800780358 /* CustomerPageViewController.swift in Sources */,
 				07FA255428A40811009A928D /* HomeViewController.swift in Sources */,
+				0760E94628A531AD00780358 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

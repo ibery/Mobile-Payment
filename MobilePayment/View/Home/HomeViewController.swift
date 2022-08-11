@@ -28,7 +28,7 @@ class HomeViewController : BaseViewController  {
     // MARK: - Setup
 
     @IBAction func cashierButtonClicked(_ sender: UIButton) {
-        guard let viewController = Storyboard.customerPage.viewController else {return}
+        guard let viewController = Storyboard.cashierPage.viewController else {return}
         self.navigationController?.show(viewController, sender: nil)
         
         
