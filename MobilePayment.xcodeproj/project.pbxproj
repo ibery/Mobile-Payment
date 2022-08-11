@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0760E93B28A4E70800780358 /* CustomerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E93A28A4E70800780358 /* CustomerPageViewController.swift */; };
+		0760E94028A4E95900780358 /* CashierPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E93F28A4E95900780358 /* CashierPageViewController.swift */; };
+		0760E94228A4E96F00780358 /* CashierPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */; };
+		0760E94428A5051C00780358 /* CustomerPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */; };
 		07FA253228A40448009A928D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253128A40448009A928D /* AppDelegate.swift */; };
 		07FA253428A40448009A928D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253328A40448009A928D /* SceneDelegate.swift */; };
-		07FA253628A40448009A928D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253528A40448009A928D /* ViewController.swift */; };
-		07FA253928A40448009A928D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA253728A40448009A928D /* Main.storyboard */; };
 		07FA253B28A4044B009A928D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA253A28A4044B009A928D /* Assets.xcassets */; };
 		07FA253E28A4044B009A928D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA253C28A4044B009A928D /* LaunchScreen.storyboard */; };
+		07FA254628A404DE009A928D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA254528A404DE009A928D /* SplashViewController.swift */; };
+		07FA254A28A40501009A928D /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA254928A40501009A928D /* SplashScreen.storyboard */; };
+		07FA255428A40811009A928D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA255328A40811009A928D /* HomeViewController.swift */; };
+		07FA255628A4081F009A928D /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA255528A4081F009A928D /* HomeScreen.storyboard */; };
+		07FA255828A40F15009A928D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA255728A40F15009A928D /* BaseViewController.swift */; };
+		07FA255A28A413D0009A928D /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA255928A413D0009A928D /* Storyboards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0760E93A28A4E70800780358 /* CustomerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPageViewController.swift; sourceTree = "<group>"; };
+		0760E93F28A4E95900780358 /* CashierPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierPageViewController.swift; sourceTree = "<group>"; };
+		0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashierPageScreen.storyboard; sourceTree = "<group>"; };
+		0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerPageScreen.storyboard; sourceTree = "<group>"; };
 		07FA252E28A40448009A928D /* MobilePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA253128A40448009A928D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FA253328A40448009A928D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07FA253528A40448009A928D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07FA253828A40448009A928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07FA253A28A4044B009A928D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FA253D28A4044B009A928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07FA253F28A4044B009A928D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FA254528A404DE009A928D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		07FA254928A40501009A928D /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		07FA255328A40811009A928D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		07FA255528A4081F009A928D /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		07FA255728A40F15009A928D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		07FA255928A413D0009A928D /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0760E93928A4E6EB00780358 /* CustomerPage */ = {
+			isa = PBXGroup;
+			children = (
+				0760E93A28A4E70800780358 /* CustomerPageViewController.swift */,
+				0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */,
+			);
+			path = CustomerPage;
+			sourceTree = "<group>";
+		};
+		0760E93E28A4E93200780358 /* CashierPage */ = {
+			isa = PBXGroup;
+			children = (
+				0760E93F28A4E95900780358 /* CashierPageViewController.swift */,
+				0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */,
+			);
+			path = CashierPage;
+			sourceTree = "<group>";
+		};
 		07FA252528A40448009A928D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +90,85 @@
 		07FA253028A40448009A928D /* MobilePayment */ = {
 			isa = PBXGroup;
 			children = (
+				07FA255028A405C1009A928D /* Base */,
+				07FA254F28A405B3009A928D /* Resources */,
+				07FA254E28A405A9009A928D /* Constants */,
+				07FA254D28A40584009A928D /* ViewModel */,
+				07FA254C28A4057B009A928D /* View */,
+				07FA254B28A40574009A928D /* Model */,
 				07FA253128A40448009A928D /* AppDelegate.swift */,
 				07FA253328A40448009A928D /* SceneDelegate.swift */,
-				07FA253528A40448009A928D /* ViewController.swift */,
-				07FA253728A40448009A928D /* Main.storyboard */,
-				07FA253A28A4044B009A928D /* Assets.xcassets */,
 				07FA253C28A4044B009A928D /* LaunchScreen.storyboard */,
-				07FA253F28A4044B009A928D /* Info.plist */,
 			);
 			path = MobilePayment;
+			sourceTree = "<group>";
+		};
+		07FA254B28A40574009A928D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07FA254C28A4057B009A928D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0760E93E28A4E93200780358 /* CashierPage */,
+				0760E93928A4E6EB00780358 /* CustomerPage */,
+				07FA255228A407FF009A928D /* Home */,
+				07FA255128A407E7009A928D /* Splash */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07FA254D28A40584009A928D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07FA254E28A405A9009A928D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				07FA255928A413D0009A928D /* Storyboards.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		07FA254F28A405B3009A928D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07FA253A28A4044B009A928D /* Assets.xcassets */,
+				07FA253F28A4044B009A928D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07FA255028A405C1009A928D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				07FA255728A40F15009A928D /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		07FA255128A407E7009A928D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				07FA254528A404DE009A928D /* SplashViewController.swift */,
+				07FA254928A40501009A928D /* SplashScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		07FA255228A407FF009A928D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				07FA255328A40811009A928D /* HomeViewController.swift */,
+				07FA255528A4081F009A928D /* HomeScreen.storyboard */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +230,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FA253E28A4044B009A928D /* LaunchScreen.storyboard in Resources */,
+				07FA255628A4081F009A928D /* HomeScreen.storyboard in Resources */,
+				07FA254A28A40501009A928D /* SplashScreen.storyboard in Resources */,
+				0760E94428A5051C00780358 /* CustomerPageScreen.storyboard in Resources */,
 				07FA253B28A4044B009A928D /* Assets.xcassets in Resources */,
-				07FA253928A40448009A928D /* Main.storyboard in Resources */,
+				0760E94228A4E96F00780358 /* CashierPageScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +245,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FA253628A40448009A928D /* ViewController.swift in Sources */,
+				07FA255A28A413D0009A928D /* Storyboards.swift in Sources */,
+				07FA255828A40F15009A928D /* BaseViewController.swift in Sources */,
+				07FA254628A404DE009A928D /* SplashViewController.swift in Sources */,
 				07FA253228A40448009A928D /* AppDelegate.swift in Sources */,
 				07FA253428A40448009A928D /* SceneDelegate.swift in Sources */,
+				0760E94028A4E95900780358 /* CashierPageViewController.swift in Sources */,
+				0760E93B28A4E70800780358 /* CustomerPageViewController.swift in Sources */,
+				07FA255428A40811009A928D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07FA253728A40448009A928D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07FA253828A40448009A928D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		07FA253C28A4044B009A928D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +393,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8CJRZAUQT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePayment/Info.plist;
+				INFOPLIST_FILE = MobilePayment/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +420,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8CJRZAUQT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePayment/Info.plist;
+				INFOPLIST_FILE = MobilePayment/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
