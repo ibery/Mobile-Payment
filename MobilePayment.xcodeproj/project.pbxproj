@@ -12,6 +12,7 @@
 		0760E94228A4E96F00780358 /* CashierPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */; };
 		0760E94428A5051C00780358 /* CustomerPageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */; };
 		0760E94628A531AD00780358 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E94528A531AD00780358 /* Constants.swift */; };
+		07BBB83728A8F92A0007CC4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BBB83628A8F92A0007CC4F /* GoogleService-Info.plist */; };
 		07FA253228A40448009A928D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253128A40448009A928D /* AppDelegate.swift */; };
 		07FA253428A40448009A928D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA253328A40448009A928D /* SceneDelegate.swift */; };
 		07FA253B28A4044B009A928D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FA253A28A4044B009A928D /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		07FA255628A4081F009A928D /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA255528A4081F009A928D /* HomeScreen.storyboard */; };
 		07FA255828A40F15009A928D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA255728A40F15009A928D /* BaseViewController.swift */; };
 		07FA255A28A413D0009A928D /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA255928A413D0009A928D /* Storyboards.swift */; };
+		AEE70463C106C801B6D70417 /* Pods_MobilePayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A11FD944DAA7AAD8741D3 /* Pods_MobilePayment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		0760E94128A4E96F00780358 /* CashierPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CashierPageScreen.storyboard; sourceTree = "<group>"; };
 		0760E94328A5051C00780358 /* CustomerPageScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerPageScreen.storyboard; sourceTree = "<group>"; };
 		0760E94528A531AD00780358 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07BBB83628A8F92A0007CC4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		07FA252E28A40448009A928D /* MobilePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA253128A40448009A928D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FA253328A40448009A928D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		07FA255528A4081F009A928D /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		07FA255728A40F15009A928D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		07FA255928A413D0009A928D /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		AE4A11FD944DAA7AAD8741D3 /* Pods_MobilePayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28EA27BACAC2275E814A1AC /* Pods-MobilePayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePayment.debug.xcconfig"; path = "Target Support Files/Pods-MobilePayment/Pods-MobilePayment.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A3FC767A9DA3D1B79139DA /* Pods-MobilePayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePayment.release.xcconfig"; path = "Target Support Files/Pods-MobilePayment/Pods-MobilePayment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE70463C106C801B6D70417 /* Pods_MobilePayment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			children = (
 				07FA253028A40448009A928D /* MobilePayment */,
 				07FA252F28A40448009A928D /* Products */,
+				B25EA28D23CABDE2466BBB1A /* Pods */,
+				7FC836FB02D8E9565DD3BCFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +110,7 @@
 				07FA253128A40448009A928D /* AppDelegate.swift */,
 				07FA253328A40448009A928D /* SceneDelegate.swift */,
 				07FA253C28A4044B009A928D /* LaunchScreen.storyboard */,
+				07BBB83628A8F92A0007CC4F /* GoogleService-Info.plist */,
 			);
 			path = MobilePayment;
 			sourceTree = "<group>";
@@ -174,6 +184,23 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		7FC836FB02D8E9565DD3BCFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A11FD944DAA7AAD8741D3 /* Pods_MobilePayment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25EA28D23CABDE2466BBB1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D28EA27BACAC2275E814A1AC /* Pods-MobilePayment.debug.xcconfig */,
+				E8A3FC767A9DA3D1B79139DA /* Pods-MobilePayment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07FA254228A4044B009A928D /* Build configuration list for PBXNativeTarget "MobilePayment" */;
 			buildPhases = (
+				37470741BE990274C56F6BC0 /* [CP] Check Pods Manifest.lock */,
 				07FA252A28A40448009A928D /* Sources */,
 				07FA252B28A40448009A928D /* Frameworks */,
 				07FA252C28A40448009A928D /* Resources */,
+				0E0C1AE03743768CF93C72A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,10 +267,53 @@
 				0760E94428A5051C00780358 /* CustomerPageScreen.storyboard in Resources */,
 				07FA253B28A4044B009A928D /* Assets.xcassets in Resources */,
 				0760E94228A4E96F00780358 /* CashierPageScreen.storyboard in Resources */,
+				07BBB83728A8F92A0007CC4F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E0C1AE03743768CF93C72A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilePayment/Pods-MobilePayment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilePayment/Pods-MobilePayment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilePayment/Pods-MobilePayment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37470741BE990274C56F6BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilePayment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07FA252A28A40448009A928D /* Sources */ = {
@@ -390,6 +462,7 @@
 		};
 		07FA254328A4044B009A928D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28EA27BACAC2275E814A1AC /* Pods-MobilePayment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -417,6 +490,7 @@
 		};
 		07FA254428A4044B009A928D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A3FC767A9DA3D1B79139DA /* Pods-MobilePayment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
